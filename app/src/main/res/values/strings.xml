@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EditViews</string>
+    <string name="app_title">Personalizador de Vista</string>
+    <string name="edit_btn_text">Editar botones</string>
+    <string name="edit_tv_text">Editar TextView</string>
+    <string name="edit_ll_text">Editar LinearLayout</string>
+
+    <string name="back_btn">Atrás</string>
+
+    <string name="edit_btn_title">Personalizar Botones</string>
+    <string name="edit_btn_color_text">Color del botón:</string>
+    <string name="edit_btn_text_size">Tamaño del texto:</string>
+    <string name="edit_btn_text_prompt">Texto del botón:</string>
+    <string name="edit_btn_input_hint">Escribe aquí...</string>
+
+    <string name="edit_ll_title">Personalizar LinearLayouts</string>
+
+    <string name="edit_tv_title">Personalizar TextViews</string>
+
+
+
+</resources>
