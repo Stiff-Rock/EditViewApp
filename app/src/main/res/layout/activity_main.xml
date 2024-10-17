@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:tools="http://schemas.android.com/tools"
         android:id="@+id/main"
         android:layout_width="match_parent"
@@ -21,12 +22,20 @@
             android:layout_marginLeft="40sp"
             android:layout_marginRight="40sp"/>
 
+    <ImageView
+            android:layout_width="215dp"
+            android:layout_height="215dp"
+            app:srcCompat="@drawable/app_icon"
+            android:id="@+id/imageView"
+            android:layout_marginTop="40sp"
+            android:layout_marginBottom="40sp"/>
+
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="140dp"
-            android:padding="60sp">
+            android:paddingLeft="60sp"
+            android:paddingRight="60sp">
 
         <Button
                 android:text="@string/edit_btn_text"
