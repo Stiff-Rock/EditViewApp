@@ -13,10 +13,16 @@
     <string name="edit_btn_text_prompt">Texto del botón:</string>
     <string name="edit_btn_input_hint">Escribe aquí...</string>
 
-    <string name="edit_ll_title">Personalizar LinearLayouts</string>
-
     <string name="edit_tv_title">Personalizar TextViews</string>
 
+    <string name="edit_ll_title">Personalizar LinearLayouts</string>
+    <string name="x">X</string>
+    <string name="y">Y</string>
+    <string name="dimensiones_del_texto">Dimensiones del texto</string>
+    <string name="textview_de_ejemplo">TextView de Ejemplo</string>
+    <string name="contenido_del_textview">Contenido del TextView</string>
+    <string name="color_de_fondo">Color de fondo</string>
 
-
+    <string name="loremIpsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <string name="dimensiones_del_layout">Dimensiones del Layout</string>
 </resources>

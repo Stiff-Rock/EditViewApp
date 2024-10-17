@@ -20,32 +20,85 @@
             android:layout_marginRight="40sp" />
 
     <LinearLayout
+            android:layout_width="310dp"
+            android:id="@+id/testLl"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/defaultColor">
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="@string/loremIpsum"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="10dp"
+                tools:ignore="VisualLintLongText" />
+    </LinearLayout>
+
+    <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="140dp"
-            android:padding="60sp">
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="60sp"
+            android:paddingRight="60sp">
 
-        <Button
-                android:text="Parámetro1"
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/color_de_fondo"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
+
+        <Spinner
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/button1"
-                android:layout_marginBottom="20dp"/>
+                android:id="@+id/spinner"
+                android:layout_marginBottom="20dp"
+                android:minHeight="48dp" />
 
-        <Button
-                android:text="Parámetro2"
-                android:layout_width="match_parent"
+        <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/button2"
-                android:layout_marginBottom="20dp"/>
+                android:text="@string/dimensiones_del_layout"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp" />
 
-        <Button
-                android:text="Parámetro3"
+        <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/button3"
-                android:layout_marginBottom="20dp"/>
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginBottom="10dp">
+
+            <EditText
+                    android:id="@+id/editXText"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:autofillHints=""
+                    android:hint="@string/x"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:minHeight="48dp"
+                    tools:ignore="VisualLintTextFieldSize" />
+
+            <EditText
+                    android:id="@+id/editYText"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:autofillHints=""
+                    android:hint="@string/y"
+                    android:inputType="number"
+                    android:textSize="14sp"
+                    android:minHeight="48dp"
+                    tools:ignore="VisualLintTextFieldSize" />
+
+        </LinearLayout>
     </LinearLayout>
 
     <Button

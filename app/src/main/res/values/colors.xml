@@ -2,6 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="buttonsColor">#FFFFFFFF</color>
+
     <color name="linearlayoutsColor">#FFFFFFFF</color>
+
+    <color name="defaultColor">#adadad</color>
+    <color name="red">#FFB3B3</color>>
+    <color name="blue">#B3C7FF</color>
+    <color name="green">#B3FFB3</color>
+    <color name="yellow">#FFFFB3</color>
+
 </resources>
